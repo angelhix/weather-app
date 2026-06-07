@@ -115,23 +115,15 @@ L'application sera accessible sur `http://localhost:5173`
 
 2. **Frontend** (`src/App.jsx`)
 ```javascript
-const apiKey = "VOTRE_CLE_API_ICI";
+const apiKey = "MA_CLE_API_ICI";
 ```
 
 3. **Backend** (`src/assets/server.js`)
 ```javascript
-const apiKey = "VOTRE_CLE_API_SECRETE";
+const apiKey = "MA_CLE_API_SECRETE";
 ```
+> ⚠️ **Attention** : JE ne peux pas commité ma clé API. Donc j'utilise `.env` pour la sécurité en production.
 
-> ⚠️ **Attention** : Ne commitez jamais votre clé API. Utilisez un fichier `.env` pour la sécurité en production.
-
-### Variables d'environnement
-
-Créez un fichier `.env.local` :
-```
-VITE_WEATHER_API_KEY=votre_cle_api
-VITE_API_URL=http://localhost:3001
-```
 
 ## 🚀 Utilisation
 
